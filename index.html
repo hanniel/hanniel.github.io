@@ -1,54 +1,431 @@
-<!doctype html>
-<html lang="de">
+info@schreinerei-danners.de<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Hanniel Hu Design</title>
-  <link rel="stylesheet" href="nicestyle.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,700" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Schreinerei Danners in Viersen - Beratung und Fertigung</title>
+  <meta name="description" content="Ob neu konzipierte Räume, Teilbereiche, Einzeleinbauten oder Einzelstücke; hier erwartet Sie hochwertige Schreinerarbeit für Heim und Gewerbe.">
 
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
 
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/manifest.json">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/idangerous.swiper-2.1.min.js"></script>
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!-- analytics -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106053533-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106053533-1');
+  </script>
+
+
+<!-- disable analytics -->
+<script type="text/javascript">
+var gaProperty = 'UA-XXXXXXX-X';
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+window[disableStr] = true;
+}
+function gaOptout() {
+document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+window[disableStr] = true;
+}
+</script>
+
+<!-- // cookie-->
+<script>
+onInitialise: function (status) {
+  var type = this.options.type;
+  var didConsent = this.hasConsented();
+  if (type == 'opt-in' && didConsent) {
+    // enable cookies
+  }
+  if (type == 'opt-out' && !didConsent) {
+    // disable cookies
+  }
+},
+
+onStatusChange: function(status, chosenBefore) {
+  var type = this.options.type;
+  var didConsent = this.hasConsented();
+  if (type == 'opt-in' && didConsent) {
+    // enable cookies
+  }
+  if (type == 'opt-out' && !didConsent) {
+    // disable cookies
+  }
+},
+
+onRevokeChoice: function() {
+  var type = this.options.type;
+  if (type == 'opt-in') {
+    // disable cookies
+  }
+  if (type == 'opt-out') {
+    // enable cookies
+  }
+},
+</script>
+<!-- // cookie pop-pup-->
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000"
+    },
+    "button": {
+      "background": "#ffffff"
+    }
+  },
+  "type": "opt-in",
+  "content": {
+    "message": "Um Ihnen die bestmögliche Nutzung zu bieten, nutzen wir Cookies auf dieser Webseite.",
+    "dismiss": "Ablehnen",
+    "allow": "Erlauben",
+    "link": "Mehr erfahren",
+    "href": "impressum.html"
+  }
+})});
+</script>
 </head>
-
+<div class="minilogo miniloose"><a href="index.html"><img src="img/logo-danners-smallest.svg" alt=""></a></div>
+<div class="nav stickybig"><a href="#konzept">Konzept</a><a href="#projekte">Projekte</a><a href="#kontakt">Kontakt</a></div>
 <body>
-  <ul class="mainnav">
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-<a href="index.html"><img  style="padding-left:5%;" width="48px" src="img/logo.png" alt="Hanniel Hu Design Logo"></a>
-
-<div class="container">
-
-  <div class="column" style="background-image: url(img/1.jpg);background-repeat:no-repeat; background-position:50% 50%;">
-    <h2>Photography<h2>
-    <h1>Rohjat</h1>
+  <div id="logo"><img src="img/logo-danners-big.svg" alt="">  </div>
+  <div class="device">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image: url(img/1.jpg);"></div>
+        <div class="swiper-slide" style="background-image: url(img/2.jpg);"></div>
+        <div class="swiper-slide" style="background-image: url(img/3.jpg);"></div>
+        <div class="swiper-slide" style="background-image: url(img/4.jpg);"></div>
+        <div class="swiper-slide" style="background-image: url(img/5.jpg);"></div>
+      </div>
+    </div>
+    <div class="pagination"></div>
   </div>
 
-  <div class="column" style="background-image: url(img/2.jpg); background-repeat:no-repeat; background-position:50% 50%;">
-    <h2>Photography<h2>
-      <h1>RRG</h1>
+
+
+<div class="container anchor half-space    clearfix">
+  <a name="konzept" ></a>
+  <div class="column-half scrollReveal">
+    <p style="line-height:normal">Unser Ziel</p>
+    <h1 style="transform:translateY(-10px);">Wohn- und Lebensräume,<br>in denen Sie sich rundum wohlfühlen.</h1>
+  </div>
+  <div class="column-half scrollReveal">
+    <p style="max-width:500px">Ob es sich um ein individuelles Möbelstück, eine komfortable Küche, eine stilvolle Treppe, um neue Fenster oder eine Haustür für Ihr Zuhause handelt – Ihre Wünsche sind bei uns in besten Händen.<br>
+    Kontaktieren Sie uns, wir beraten Sie gerne ausführlich!
+      <br>
+    </p>
+  </div>
+</div>
+<a name="auszeichnung"></a>
+<div class="container scrollReveal     clearfix" style="padding:5% 5% 10% 5%; background-color:#777;">
+  <div class="column-quarter ">
+    <h3>Seit 1994</h3>
+    <p>Seit 1994 arbeiten wir mit großer Leidenschaft in unserer Schreinerei mit dem so vielseitigen Rohstoff “Holz” und verwirklichen gleichzeitig individuelle Wünsche.
+  </p>
   </div>
 
-  <div class="column"style="background-image: url(img/3.jpg); background-repeat:no-repeat; background-position:60% 50%;">
-    <h2>Photography<h2>
-      <h1>Dennis</h1>
+  <div class="column-quarter">
+    <h3>Qualität</h3>
+    <p>Unser erfahrenes und qualifiziertes Team stellt hohe Ansprüche an die eigenen Qualitätstandards, um gleichzeitig Umweltschutz und Nachhaltigkeit zu optmieren.
+    </p>
   </div>
 
-  <div class="column" style="background-image: url(img/4.jpg);background-repeat:no-repeat; background-position:50% 50%;">
-    <h2>Presentation<h2>
-      <h1>Custo Barcelona</h1>
+  <div class="column-quarter">
+    <h3>Kundennähe</h3>
+    <p>Persönlicher Kontakt zu Kunden, sowie professionelle Beratung liegen uns am Herzen.  Egal ob außergewöhnliche Formen, besondere Materialkombinationen oder ganz ausgefallene Maße, gemeinsam mit Ihnen gestalten wir Ihr persönliches Ambiente.
+    </p>
   </div>
 
-  <div class="column" style="background-image: url(img/5.jpg); background-repeat:no-repeat; background-position:50% 50%;">
-    <h2>Photography<h2>
-      <h1>Hamza</h1>
+
+  <div class="column-quarter quarter-space">
+    <h3>Auszeichnungen</h3>
+    <p>Unter der Leitung von Schreinermeister Thomas Danners bringt unser Familienbetrieb preisgekrönte Projekte hervor.
+      <br>
+      <br><a href="kaffeebar.html">Kaffeebar</a>
+      <br><a href="outdoorkueche.html">Outdoorküche</a>
+      <br><a href="beratungstheke.html">Beratungstheke</a>
+
+    </p>
+  </div>
+</div>
+
+
+<div class="container tab-space    clearfix">
+  <div class="tabnav" style="background-color:#CA9E67;">
+    <button class="btnstyle" onclick="openTab('Beratung')"><h5><b>01 </b>Beratung</h5></button>
+    <button class="btnstyle" onclick="openTab('Planung')"><h5><b>02 </b>Planung</h5></button>
+    <button class="btnstyle" onclick="openTab('Fertigung')"><h5><b>03 </b>Fertigung</h5></button>
+    <button class="btnstyle" onclick="openTab('Kontaktaufnahme')"><h5><b>04 </b>Kontaktaufnahme</h5></button>
   </div>
 
-  <div class="column"style="background-image: url(img/6.jpg); background-repeat:no-repeat; background-position:60% 50%;">
-    <h2>Photography<h2>
-      <h1>René</h1>
+  <div id="Beratung" class="tab bigcolumn">
+    <h2>Beratung von Anfang an</h2>
+    <p>Sie machen sich Gedanken über die optimale Einrichtung Ihrer Wohnung? Sie haben Lust auf Veränderung? Die Standardlösungen aus den Möbelhäusern überzeugen Sie nicht?<br>Wir helfen Ihnen gerne weiter und beraten Sie in Sachen Möbel, Einrichtungen, Zimmertüren, Fenster und Türen aus Holz, Kunststoff und Aluminium, Treppen, Praxen, Insektenschutz, Einbruchschutz und Reparaturen.<br><br></p>
   </div>
+
+  <div id="Planung" class="tab bigcolumn showoff">
+    <h2>Gute Planung im Vorfeld - der Grundstein für jedes Projekt</h2>
+    <p>Ihren Vorstellungen und unseren Möglichkeiten bei der Umsetzung sind nahezu keine Grenzen gesetzt. Sie möchten außergewöhnliche Formen, besondere Materialkombinationen, umweltfreundliche Oberflächen oder ganz ausgefallene Maße? Dann gestalten wir gemeinsam Ihr persönliches Ambiente. Mit Planungszeichnungen zeigen wir Ihnen bereits vorher, wie Ihre Lösung später aussehen wird.</p>
+  </div>
+
+  <div id="Fertigung" class="tab bigcolumn showoff">
+    <h2>Fertigung von erfahrenen Spezialisten</h2>
+    <p>Für die Fertigung und Montage setzen wir ausschließlich eigene qualifizierte und erfahrene Tischler ein – damit Sie lange Freude an Ihrem neuen Wohnvergnügen haben werden. </p>
+  </div>
+
+  <div id="Kontaktaufnahme" class="tab bigcolumn showoff">
+
+    <h2 >Unverbindlicher Termin</h2>
+    <p>Seien Sie neugierig und lassen Sie Ihr Gefühl entscheiden. Das kostenlose Erstgespräch gibt Ihnen Gelegenheit, uns, unsere Schreinerei und unsere Leistungen kennenzulernen. Wir besprechen Ihre individuelle Wünsche und prüfen gemeinsam, welche Gestaltungsmöglichkeiten realisierbar sind, um Ihnen im nächsten Schritt eine realistische Kostenschätzung zu geben.</p>
+    <br>
+    <img src="img/protraitfoto-thomas-danners.jpg" alt="">
+    <h5 style="padding-top:20px;"><b>Thomas Danners</b></h5>
+    <p id="Kontaktaufnahmetext">Ihr Ansprechpartner und Inhaber
+    <br>
+      <a href="tel:+49216212302">
+        +49216212302
+      </a>
+    <br>
+      <a href="mailto:info@schreinerei-danners.de">
+      info@schreinerei-danners.de
+      </a>
+    </p>
+  </div>
+</div>
+
+<a name="projekte"></a>
+
+<div class="gallery     clearfix">
+
+  <a href="wohnen.html" class="column">
+  <h4>Wohnen</h4>
+    <img src="img/gallery/wohnen.jpg" alt="">
+  </a>
+
+
+  <a href="schlafen.html"    class="column">
+  <h4>Schlafen</h4>
+    <img src="img/gallery/schlafen.jpg" alt="">
+  </a>
+
+
+  <a href="kochen.html"    class="column">
+  <h4>Kochen</h4>
+    <img src="img/gallery/kochen.jpg" alt="">
+  </a>
+
+
+    <a href="bad.html"    class="column">
+    <h4>Bad</h4>
+      <img src="img/gallery/bad.jpg" alt="">
+    </a>
+
+    <a href="arbeiten.html"   class="column">
+    <h4>Arbeiten</h4>
+      <img src="img/gallery/arbeiten.jpg" alt="">
+    </a>
+
+    <a href="outdoor.html"    class="column">
+    <h4>Outdoor</h4>
+      <img src="img/gallery/outdoor.jpg" alt="">
+    </a>
 
 
 </div>
-  </body>
-  </html>
+
+
+
+<div   class=" container">
+  <a name="kontakt" ></a>
+
+  <div  class="column-tall anchor">
+    <img src="img/logo-danners-small.svg">
+    <p style="font-size:1.3em; text-align:center;">
+      Sebastianusweg 12
+      <br>41747 Viersen
+      <br>Deutschland
+    </p>
+  </div>
+
+  <div class="bigcolumn map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2496.617950954066!2d6.388865951854988!3d51.26294333626747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8a978c756f85d%3A0xadc6293faf495962!2sT.+Danners!5e0!3m2!1sde!2sde!4v1496190348022" width="100%" height="600px"  frameborder="0" style="border:0;margin:0; padding:0;" allowfullscreen></iframe>
+  </div>
+</div>
+  <div class="columnend "style="background-color: #555;">
+    <a href="tel:+49216212302">
+      <h5>Telefon</h5>
+      <h1> +49 2162 12302</h1>
+    </a>
+  </div>
+
+  <div class="columnend" style="background-color: #444;">
+    <a href="mailto:info@schreinerei-danners.de">
+      <h5>Email</h5>
+      <h1>info@schreinerei-danners.de</h1>
+    </a>
+  </div>
+  <a name="kontaktdetail" ></a>
+  <div class="footer" style="background-color: #222;">
+  <a href="impressum.html"><h5 style="color:#fff; margin-top:35px;">Impressum & Datenschutz</h5></a>
+  </div>
+
+
+<!-- swiper -->
+
+<script>
+  var mySwiper = new Swiper('.swiper-container',{
+    pagination: '.pagination',
+    loop:true,
+    grabCursor: true,
+    paginationClickable: true,
+		autoplay: 5000,
+		autoplayDisableOnInteraction: false,
+    keyboardControl: true,
+  });
+ </script>
+
+<!-- scroll animation -->
+<!-- <script type="text/javascript">
+$('a[href*=#]:not([href=#])').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+  || location.hostname == this.hostname) {
+
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+    if (target.length) {
+      var offset = ($(".nav").css("position") == "fixed") ? $(".nav").height() : 0;
+      $('html,body').animate({
+        scrollTop: target.offset().top - offset
+      }, 1000);
+      return false;
+    }
+  }
+});
+</script> -->
+
+<!-- Modal -->
+<script>
+var body = document.body,
+overlay = document.querySelector('.overlay'),
+overlayBtts = document.querySelectorAll('button[class$="overlay"]');
+
+
+[].forEach.call(overlayBtts, function(btt) {
+  btt.addEventListener('click', function() {
+
+    /* Detect the button class name */
+    var overlayOpen = this.className === 'open-overlay';
+
+    /* Toggle the aria-hidden state on the overlay and the
+    no-scroll class on the body */
+    overlay.setAttribute('aria-hidden', !overlayOpen);
+    body.classList.toggle('noscroll', overlayOpen);
+
+    /* On some mobile browser when the overlay was previously
+    opened and scrolled, if you open it again it doesn't
+    reset its scrollTop property after the fadeout */
+    setTimeout(function() {
+      overlay.scrollTop = 0;              }, 1000)
+
+    }, false);
+});
+</script>
+
+<!-- TAb -->
+<script>
+  function openTab(tabName) {
+    var i;
+    var x = document.getElementsByClassName("tab");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    document.getElementById(tabName).style.display = "block";
+  }
+</script>
+
+
+
+<!-- ScrollReveal -->
+<script type="text/javascript">
+window.sr = ScrollReveal({
+  reset: false,
+  distance: '50px',
+  duration: 500,
+  delay: 100,
+  scale: 1,
+});
+sr.reveal(".scrollReveal");
+</script>
+
+<script type="text/javascript">
+// ScrollTo defaults
+$(document).ready(function() {
+  $.extend($.scrollTo.defaults, {
+  axis: 'y', easing: "swing", duration: 200
+});
+
+// ScrollTo
+// offset wird im CSS mit translates geregelt
+$("a[href^='#']").on("click", function(e) {
+
+
+    e.preventDefault(); // e.stopImmediatePropagation();
+    var name = $(this).attr("href").replace("#", "");
+    var $target = $("a[name='" + name + "']");
+
+    $.scrollTo($target, { duration: 500, easing: "swing" });
+
+});
+})
+</script>
+
+<!-- // orientationchange refresh -->
+<script type="text/javascript">
+$(window).on('orientationchange', function() {
+  // document.body.style.display='none';
+  // document.body.offsetHeight; //cause a reflow
+  // document.body.style.display='block'; //cause a repaint
+    location.href=location.href;
+});
+</script>
+
+
+
+</body>
+</html>
