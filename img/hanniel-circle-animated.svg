@@ -1,0 +1,62 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 117">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e84344;
+        opacity:0;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #e84344;
+        stroke-miterlimit: 10;
+        stroke-width: 1px;
+      }
+      .shadow {
+          -webkit-filter: drop-shadow( 0px 0px 2px #fdd );
+                  filter: drop-shadow( 0px 0px 2px #fdd );
+      }
+
+    </style>
+  </defs>
+  <title>hanniel-circle</title>
+  <style>
+    .cls-2{
+    stroke-dasharray: 340;
+    stroke-dashoffset: -340;
+    animation: dash 1.6s ease-in forwards;
+    }
+    .fade-1{
+    opacity: 0;
+    transform:translateY(-5px);
+    animation: fade 1s ease-out forwards;
+    animation-delay: 1.3s;
+    }
+    .fade-2{
+    opacity: 0;
+    transform:translateY(5px);
+    animation: fade 1s ease-out forwards;
+    animation-delay: 1.2s;
+    }
+    @keyframes down{
+      to {
+      transform:translateY(2px);
+      }
+    }
+    @keyframes dash{
+      to {
+        stroke-dashoffset:0;
+        stroke-width: 9px;
+      }
+    }
+    @keyframes fade{
+      to {
+      opacity: 1;
+      transform:translateY(0px);
+      }
+    }
+  </style>
+  <path class="cls-1 fade-1 shadow" d="M96.49,31.83V85.17a46.4,46.4,0,0,1-10.85,11V56.69H48.25A12.06,12.06,0,0,1,36.19,44.63V17.78A46.3,46.3,0,0,1,47,13.49V41a4.83,4.83,0,0,0,4.83,4.83H85.64v-25A46.4,46.4,0,0,1,96.49,31.83Z"/>
+  <path class="cls-1 fade-2 shadow" d="M80.81,72.37V99.22A46.3,46.3,0,0,1,70,103.51V76a4.83,4.83,0,0,0-4.83-4.83H31.36v25a46.4,46.4,0,0,1-10.85-11V31.83a46.4,46.4,0,0,1,10.85-11V60.31H68.75A12.06,12.06,0,0,1,80.81,72.37Z"/>
+  <path class="cls-2 shadow" d="M58.49,4.7A53.8,53.8,0,1,0,112.3,58.5,53.87,53.87,0,0,0,58.49,4.7m0,0h0"/>
+</svg>
