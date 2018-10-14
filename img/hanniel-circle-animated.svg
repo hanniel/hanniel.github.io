@@ -23,7 +23,7 @@
   <style>
     .cls-2{
     stroke-dasharray: 340;
-    stroke-dashoffset: -340;
+    stroke-dashoffset: 340;
     animation: dash 1.6s ease-in forwards;
     }
     .fade-1{
