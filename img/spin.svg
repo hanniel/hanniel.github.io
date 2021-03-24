@@ -1,0 +1,47 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 208.72348px;
+        fill: #ccc;
+        font-family: BasicSans-Black, Basic Sans;
+        font-weight: 800;
+      }
+      .spin{
+      animation: rotate 22s linear infinite;
+      transform-origin: 50% 50%;
+      }
+
+      @keyframes rotate {
+      0%   { transform: rotate(0) ; }
+
+      100%  { transform: rotate(-360deg); }
+      }
+    </style>
+  </defs>
+  <g class="spin">
+  <text class="cls-1" transform="translate(206.86316 600.93647) rotate(-97.14106)"> </text>
+  <text class="cls-1" transform="matrix(0.18111, -0.98346, 0.98346, 0.18111, 194.04152, 552.07576)">H</text>
+  <text class="cls-1" transform="translate(227.18639 399.2693) rotate(-56.07094)">E</text>
+  <text class="cls-1" transform="translate(297.6673 295.70228) rotate(-34.01924)">Y</text>
+  <text class="cls-1" transform="translate(412.10888 226.4895) rotate(-19.04739)"> </text>
+  <text class="cls-1" transform="translate(462.98205 210.21899) rotate(-9.9431)"> </text>
+  <text class="cls-1" transform="translate(514.67755 201.43042) rotate(0.9587)">I</text>
+  <text class="cls-1" transform="translate(587.70249 199.7561) rotate(18.28003)">T</text>
+  <text class="cls-1" transform="translate(695.72658 238.76025) rotate(31.78344)">’</text>
+  <text class="cls-1" transform="translate(734.2954 256.48301) rotate(44.75924)">S</text>
+  <text class="cls-1" transform="translate(824.24682 356.03543) rotate(60.33847)"> </text>
+  <text class="cls-1" transform="translate(849.74131 403.2596) rotate(69.32379)"> </text>
+  <text class="cls-1" transform="matrix(0.05278, 0.99861, -0.99861, 0.05278, 873.71364, 447.74034)">H</text>
+  <text class="cls-1" transform="translate(878.53319 603.7715) rotate(111.76684)">A</text>
+  <text class="cls-1" transform="matrix(-0.7273, 0.68632, -0.68632, -0.7273, 826.16536, 734.85913)">N</text>
+  <text class="cls-1" transform="translate(711.56735 840.53711) rotate(162.59509)">N</text>
+  <text class="cls-1" transform="translate(558.95831 878.98261) rotate(-177.963)">I</text>
+  <text class="cls-1" transform="translate(485.79155 878.67799) rotate(-161.15954)">E</text>
+  <text class="cls-1" transform="matrix(-0.77295, -0.63446, 0.63446, -0.77295, 367.62816, 835.95761)">L</text>
+  <text class="cls-1" transform="translate(281.03594 758.21237) rotate(-126.83303)"> </text>
+  <text class="cls-1" transform="translate(250.47096 714.98322) rotate(-118.74799)"> </text>
+  <text class="cls-1" transform="matrix(-0.32328, -0.9463, 0.9463, -0.32328, 226.07417, 666.87729)"> </text>
+  <text class="cls-1" transform="translate(209.97525 615.97513) rotate(-99.76005)"> </text>
+</g>
+</svg>
