@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CCCCCC;}
+	.st1{font-family:'BasicSans-Bold';}
+	.st2{font-size:208.7235px;}
+
+	.cls-1 {
+		font-size: 208.72348px;
+		fill: #ccc;
+		font-family: BasicSans-Black, Basic Sans;
+		font-weight: 800;
+	}
+	.spin{
+	animation: rotate 22s linear infinite;
+	transform-origin: 50% 50%;
+	}
+
+	@keyframes rotate {
+	0%   { transform: rotate(0) ; }
+
+	100%  { transform: rotate(-360deg); }
+	}
+</style>
+<g class="spin">
+	<text transform="matrix(0.1811 -0.9835 0.9835 0.1811 194.0415 552.0757)" class="st0 st1 st2">H</text>
+	<text transform="matrix(0.5582 -0.8297 0.8297 0.5582 227.1864 399.2695)" class="st0 st1 st2">E</text>
+	<text transform="matrix(0.8288 -0.5595 0.5595 0.8288 297.6673 295.7023)" class="st0 st1 st2">Y</text>
+	<text transform="matrix(0.9999 1.673169e-02 -1.673169e-02 0.9999 514.6776 201.4304)" class="st0 st1 st2">I</text>
+	<text transform="matrix(0.9495 0.3137 -0.3137 0.9495 587.7025 199.7561)" class="st0 st1 st2">T</text>
+	<text transform="matrix(0.85 0.5267 -0.5267 0.85 695.7266 238.7602)" class="st0 st1 st2">’</text>
+	<text transform="matrix(0.7101 0.7041 -0.7041 0.7101 734.295 256.483)" class="st0 st1 st2">S</text>
+	<text transform="matrix(5.278000e-02 0.9986 -0.9986 5.278000e-02 873.7131 447.7403)" class="st0 st1 st2">H</text>
+	<text transform="matrix(-0.3708 0.9287 -0.9287 -0.3708 878.5334 603.7715)" class="st0 st1 st2">A</text>
+	<text transform="matrix(-0.7273 0.6863 -0.6863 -0.7273 826.1655 734.8591)" class="st0 st1 st2">N</text>
+	<text transform="matrix(-0.9542 0.2991 -0.2991 -0.9542 711.567 840.5366)" class="st0 st1 st2">N</text>
+	<text transform="matrix(-0.9994 -3.554491e-02 3.554491e-02 -0.9994 558.9586 878.9828)" class="st0 st1 st2">I</text>
+	<text transform="matrix(-0.9464 -0.3229 0.3229 -0.9464 485.792 878.6771)" class="st0 st1 st2">E</text>
+	<text transform="matrix(-0.7729 -0.6345 0.6345 -0.7729 367.6286 835.9584)" class="st0 st1 st2">L</text>
+</g>
+</svg>
